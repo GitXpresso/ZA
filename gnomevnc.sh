@@ -8,3 +8,4 @@ echo -e "Installing Required Packages (tigervnc-standalone-server, tigervnc-comm
 sudo apt install -y tigervnc-standalone-server tigervnc-common tigervnc-xorg-extension tigervnc-viewer
 echo -e "Installing (gnome-session and gnome-terminal)"
 sudo apt install -y gnome-session gnome-terminal
+tigervncserver -xstartup /usr/bin/gnome-session -SecurityTypes VncAuth,TLSVnc -geometry 800x600 -localhost no :2
