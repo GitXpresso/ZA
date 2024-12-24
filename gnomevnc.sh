@@ -7,4 +7,4 @@ sudo apt update && sudo apt upgrade
 echo -e "Installing Required Packages (tigervnc-standalone-server, tigervnc-common, tigervnc-xorg-extension, tigervnc-viewer)"
 sudo apt install -y tigervnc-standalone-server tigervnc-common tigervnc-xorg-extension tigervnc-viewer
 echo -e "Installing (gnome-session and gnome-terminal)"
-sudo apt install -u gnome-session gnome-terminal
+sudo apt install -y gnome-session gnome-terminal
