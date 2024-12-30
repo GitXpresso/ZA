@@ -1,7 +1,7 @@
 echo "Installing ngrok free plan in"
-echo -e "3"
-echo -e "2"
 echo -e "1"
+echo -e "1 2"
+echo -e "1 2 3"
 sudo su
 apt update 
 apt install sudo 
